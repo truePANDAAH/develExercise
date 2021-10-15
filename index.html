@@ -1,1 +1,107 @@
-<html></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--test css, non linkava la pagina -->
+    <style>
+        span {
+            margin-left: 15%;
+        }
+
+        .logoTest {
+            font-family: fantasy;
+            font-size: 500%;
+            text-align: center;
+        }
+        body {
+            background-color: rgb(179, 202, 218);
+        } 
+        h2 {
+            color: red;
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+        .spotButton {
+            margin-left: 30%;
+        }
+        footer {
+            text-align: center;
+        }
+        .imgFly {
+            align-content: center;
+            margin-left: 30%;
+        }
+      
+    </style>
+    <!--end test css-->  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio 1</title>
+   
+</head>
+<!-- La pagina dovrà contenere l'articolo e un footer con un form di sottoscrizione al blog.
+L'articolo si compone di titolo, testo e immagini in fondo.
+Il form dovrà comporsi di un campo obbligatorio per l'inserimento della mail e un pulsante di invio. -->
+<body>
+    <div class="logoTest">
+        <h1>GIORNALETTO</h1>
+    </div>
+    <!--scaletta: logo , nav bar , articolo -->
+    <hr>
+    <h1>Nasce Ita Airways: Oggi i primi voli </h1>
+    <hr>
+    <section>
+        <!--occhiello dell'articolo-->
+        <h2>Ita Airways: nuovo logo, aerei tutti azzurri
+        e tricolore sulla coda , immagini allegate</h2>
+        <!--dare dei margini sinistri , centrare un pò , forse anche ochiello .-->
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Labore in cum officiis eligendi 
+        explicabo dignissimos quas vitae, itaque laudantium accusantium. <br> 
+        Fugiat optio laudantium ad quisquam, accusamus expedita quibusdam tenetur repudiandae.</p>    
+        <br>
+        <br>
+        <!--immagine correlata , problemi di render , uso un url -->
+        <div class="imgFly">
+            <img 
+                height="300px"
+                width="600px"
+                src="https://www.corriere.it/methode_image/2021/10/15/Economia/Foto%20Economia%20-%20Trattate/itaaaa-kEMG-U32901971340258VpH-656x492@Corriere-Web.jpg"
+                alt="immagine Ita Airways descritta in articolo"
+            >
+        </div>   
+    </section>
+   
+    <br>
+    <br>
+    <br>
+   
+    <div class="spotButton">
+        <a href="https://www.youtube.com/watch?v=yv67kuKT9UM&ab_channel=RedazioneBrandNews"> <button> Non perderti lo spot lancio</button></a>
+    </div>
+    
+    <br>
+    <hr>
+    <br>
+    <br>
+    
+
+    <div >
+        <!--sottoscrizione per news tramite email-->
+        <form action="file:///Users/admin/Desktop/Esercizi%20Develhope/develExercise/index.html" method="get" >
+            <h3><span>Iscriviti e rimani aggiornato</span></h3>
+            <label for="news"> <span>Email:</span></label>
+            <input type="email" id="news" name="emailForNews">
+            <button type="submit">Registrati</button>
+        </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!--avrei usato il comando""per far risultare il footer in bottom page , ma per termini di visualizzazione
+    dell'esercizio ho ritenuto piu opportuno scriverlo in qusta maniera -->
+    <footer>copyright ddd&copy2021 </footer>
+
+</body>
+</html>
